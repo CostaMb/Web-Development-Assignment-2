@@ -1,1 +1,27 @@
+body{
+font-family: Arial;
+background:#f4f4f4;
+margin:20px;
+}
 
+h1{
+color:darkblue;
+}
+
+nav a{
+margin-right:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+img{
+width:200px;
+border-radius:10px;
+}
+
+button{
+padding:10px;
+background:blue;
+color:white;
+border:none;
+}
