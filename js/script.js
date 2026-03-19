@@ -1,5 +1,3 @@
-function showMessage(){
-
-alert("Welcome to my website!");
-
+function showMessage() {
+    alert("Thank you for visiting my website!");
 }
