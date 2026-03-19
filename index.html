@@ -1,39 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Travel Website</title>
-<link rel="stylesheet" href="style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<header>
-<h1>My Travel Website</h1>
+<h1>Fitness Website</h1>
 
-<nav>
 <a href="index.html">Home</a>
-<a href="gallery.html">Gallery</a>
+<a href="workouts.html">Workouts</a>
 <a href="contact.html">Contact</a>
-</nav>
-</header>
-
-<main>
 
 <h2>Welcome</h2>
-<p>Welcome to my travel blog where I share my experiences.</p>
+<img src="images/fitness.jpg" width="300">
 
-<img src="images/photo1.jpg" alt="Ocean view" width="300">
+<h2>BMI Calculator</h2>
 
-<br><br>
+<input id="weight" placeholder="Weight">
+<input id="height" placeholder="Height">
 
-<button onclick="showMessage()">Click Me</button>
+<button onclick="calculateBMI()">Calculate</button>
 
-</main>
-
-<footer>
-<p>© 2024 My Travel Website</p>
-</footer>
+<p id="result"></p>
 
 <script src="script.js"></script>
 
