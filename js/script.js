@@ -1,3 +1,9 @@
-function showMessage() {
-    alert("Thank you for visiting my website!");
+function calculateBMI() {
+
+    let weight = document.getElementById("weight").value;
+    let height = document.getElementById("height").value;
+
+    let bmi = weight / (height * height);
+
+    document.getElementById("result").innerText = "BMI: " + bmi;
 }
